@@ -193,7 +193,8 @@ body {
 /* ── Chat Messages Area ───────────────────────────── */
 #messages {
   flex: 1;
-  overflow-y: auto;       /* scrollable */
+  overflow-y: auto;
+  /* scrollable */
   padding: 20px 24px;
   background-color: #f7f8fb;
   display: flex;
@@ -237,6 +238,8 @@ body {
   padding: 10px 15px;
   font-size: 14px;
   line-height: 1.55;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 /* ── Chat Footer (Input + Button) ─────────────────── */
