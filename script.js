@@ -16,6 +16,7 @@ const sendMessage = () => {
 
         elem.appendChild(bubble);
         messagesContainer.appendChild(elem);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
     }
     inputField.value = '';
 }
